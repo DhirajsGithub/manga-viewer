@@ -1,0 +1,32 @@
+.chapter-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .chapter-list button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  .chapter-list button {
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .chapter-list button.active {
+    background-color: lightblue;
+    font-weight: bold;
+  }
+  
+
+  @media (max-width: 768px) {
+    .chapter-list button {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  }

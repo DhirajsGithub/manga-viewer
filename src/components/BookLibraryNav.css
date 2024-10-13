@@ -1,0 +1,33 @@
+.book-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .book-list button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-list button.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .book-list button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .book-list button {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  }

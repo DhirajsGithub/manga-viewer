@@ -1,0 +1,18 @@
+.manga-viewer .screen-left, .manga-viewer .screen-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  cursor: pointer;
+}
+
+.manga-viewer .screen-left {
+  left: 0;
+}
+
+.manga-viewer .screen-right {
+  right: 0;
+}
+.loading-text{
+  text-align: center;
+}
