@@ -29,7 +29,7 @@ Follow these steps to get the app running on your local machine:
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/DhirajsGithub/manga-reader.git
+   git clone https://github.com/DhirajsGithub/manga-viewer.git
     ```
 2. **Navigate to the project directory**: 
    ```bash

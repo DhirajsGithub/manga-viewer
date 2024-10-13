@@ -7,12 +7,8 @@ import BookLibraryNav from "../components/BookLibraryNav";
 import ChaptersNav from "../components/ChaptersNav";
 import ChapterImageViewer from "../components/ChapterImageViewer";
 
-interface Params {
-  bookId: string;
-}
-
 const Home: React.FC = () => {
-  const { bookId } = useParams<Params>();
+  const { bookId } = useParams<{ bookId: string }>();
   const [books, setBooks] = useState<Book[]>([]);
   const [selectedChapterId, setSelectedChapterId] = useState<number | null>(
     null
