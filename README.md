@@ -33,7 +33,7 @@ Follow these steps to get the app running on your local machine:
     ```
 2. **Navigate to the project directory**: 
    ```bash
-   cd manga-reader
+   cd manga-viewer
    ```
 3. **Install the dependencies**:
    ```bash
