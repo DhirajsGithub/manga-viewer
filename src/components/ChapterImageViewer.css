@@ -33,10 +33,82 @@
   
   .page-info {
     position: absolute;
-    bottom: -10%;
+    bottom: -15%;
     text-align: center;
     margin-top: 10px;
     font-size: 16px;
     font-family: sans-serif;
     color: #555;
+  }
+
+  .seekbar-point {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 20px;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .seekbar-point.active {
+    background-color: #333;
+  }
+  
+  .draggable-div {
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .seekbar-container {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  .seekbar-points {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 20px;
+  }
+  
+  .seekbar-point {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #ccc;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  
+  .seekbar-point.active {
+    background: #666;
+  }
+  
+  .draggable-div {
+    position: absolute;
+    top: 28%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    background: #333;
+    border-radius: 50%;
+    cursor: grab;
+    transition: background-color 0.2s;
+  }
+  
+  @media (max-width: 500px) {
+    .seekbar-container {
+      width: 300px;
+    }
   }

@@ -6,6 +6,7 @@ import "../App.css";
 import BookLibraryNav from "../components/BookLibraryNav";
 import ChaptersNav from "../components/ChaptersNav";
 import ChapterImageViewer from "../components/ChapterImageViewer";
+import Seekbar from "../components/Seekbar";
 
 const Home: React.FC = () => {
   const { bookId } = useParams<{ bookId: string }>();
@@ -86,6 +87,7 @@ const Home: React.FC = () => {
           />
         )
       )}
+      
     </div>
   );
 };
